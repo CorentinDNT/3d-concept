@@ -1,0 +1,14 @@
+.tracker {
+  position: fixed;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  opacity: 0;
+  border-radius: 50%;
+  border: 1px solid $lightColor;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: opacity 0.5s;
+  // background-color: white;
+}

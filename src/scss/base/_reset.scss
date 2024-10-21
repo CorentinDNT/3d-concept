@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // cursor: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $darkColor;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: $lightColor;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
