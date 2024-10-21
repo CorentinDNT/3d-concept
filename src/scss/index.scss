@@ -1,11 +1,12 @@
+@import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixins";
-@import "./utils/variables";
 
 @import "./base/fonts";
 @import "./base/reset";
 
 @import "./components/tracker";
+@import "./components/sphere";
 
 @import "./layout/homeSection";
 

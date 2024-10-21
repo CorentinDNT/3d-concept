@@ -15,3 +15,7 @@ root.render(
 reportWebVitals();
 
 /*  <rect width="121.55773130167483" height="120.93151774640518" x="117.2387588482689" y="140.53424709892636" rx="2.5" ry="2.5" fill="transparent" class="logo-element-hover-target"></rect>*/
+
+if (module.hot) {
+  module.hot.accept();
+}
